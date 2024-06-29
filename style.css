@@ -158,3 +158,53 @@
    font-size: 0.9rem;
    font-weight: 700;
 }
+
+.hero-section{
+   background-image: url("/images/hero_image.jpg");
+   background-size: cover;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.hero-msg{
+
+   height: 40px;
+   width: 80%;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   background-color: white;
+   margin-bottom: 30px;
+}
+
+.hero-msg a{
+   color: rgb(5, 99, 116);
+   font-weight: 530;
+}
+
+.box{
+   border: 2px solid black;
+   height: 400px;
+   width: 23%;
+   background-color: white;
+}
+
+.shop-section{
+   background-color: #cfdcd9;
+   /* margin-top: 10px; */
+   display: flex;
+   justify-content: space-evenly;
+
+}
+.box-image{
+   height: 300px;
+   /* width: 20px; */
+   
+}
+
+.box p{
+   color: rgb(86, 183, 189);
+   font-weight: 400;
+}
