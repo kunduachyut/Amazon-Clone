@@ -60,6 +60,10 @@
 
 }
 
+.search-input:hover {
+   border: 2px solid rgb(255, 164, 8);
+}
+
 .search-icon {
    align-items: end;
    background-color: rgb(236, 172, 33);
@@ -102,7 +106,7 @@
    color: #ffffff;
    width: 100%;
    border: none;
-   font-style: bold
+   font-weight: 700;
 }
 
 .nav-cart {
@@ -118,15 +122,39 @@
    font-size: .9rem;
 }
 
-.nav-state{
+.nav-state {
    display: flex;
    align-items: center;
 }
 
-.state{
+.state {
    font-size: small;
 }
 
-.state-icon{
+.state-icon {
    margin-top: 5px;
+}
+
+.pannel {
+   height: 40px;
+   background-color: #1d2121;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.pannel p {
+   display: inline;
+   margin-left: 15px;
+}
+
+.services {
+   width: 70%;
+   font-size: 0.95rem;
+}
+
+.panner-speOffer {
+   font-size: 0.9rem;
+   font-weight: 700;
 }
